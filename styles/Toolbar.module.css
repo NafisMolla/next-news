@@ -1,0 +1,17 @@
+.main {
+  width: auto;
+
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15 px;
+  align-items: center;
+}
+.main div {
+  margin: 25px;
+
+  cursor: pointer;
+}
+.main div:hover {
+  color: rgb(168, 168, 168);
+}
