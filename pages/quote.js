@@ -19,9 +19,7 @@ const quote = ({ data, quote }) => {
 };
 
 export const getServerSideProps = async (pageContext) => {
-  const res = await fetch(
-    "https://next-news-hpee5porq-nafismolla.vercel.app/api/image"
-  );
+  const res = await fetch("https://next-news-nafismolla.vercel.app/api/image");
   const data = await res.json();
 
   const q = await fetch(
